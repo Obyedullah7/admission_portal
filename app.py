@@ -139,7 +139,7 @@ def main():
     st.sidebar.header('Select your requirement')
         
     selected=st.sidebar.selectbox('',
-                        ('-----------',
+                        ('Select',
                         'Admin',
                         'Registration',
                         'Status'
