@@ -7,3 +7,4 @@ streamlit==1.0.0
 plotly==4.14.3
 yagmail==0.14.256
 PyYAML==6.0
+Python==3.8.4rc1
