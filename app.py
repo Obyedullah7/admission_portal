@@ -31,10 +31,10 @@ st.set_page_config(
 ##database localhost connection
 ##@st.cache()
 def get_database_connection():
-    db = mysql.connect(host = "localhost",
-                      user = "root",
-                      passwd = "root",
-                      database = "mydatabase",
+    db = mysql.connect(host = "remotemysql.com",
+                      user = "3UqmzRLpO8",
+                      passwd = "UjLqejDHNn",
+                      database = "3UqmzRLpO8",
                       auth_plugin='mysql_native_password')
     cursor = db.cursor()
     
