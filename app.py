@@ -72,7 +72,7 @@ def admin():
     st.session_state.login=st.sidebar.checkbox('Login')
  
     if st.session_state.login==True:
-        if username=="name" and password=='password':
+        if username=="c191012" and password=='c191012':
             st.sidebar.success('Login Success')
 
             date1=st.date_input('Date1')
