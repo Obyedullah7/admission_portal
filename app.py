@@ -23,7 +23,7 @@ from uuid import uuid4
 import yaml
 
 st.set_page_config(
-    page_title="Admission Form",
+    page_title="Data Science Bootcamp",
     page_icon=":dolphin:",
     layout="wide",
     initial_sidebar_state="expanded",
