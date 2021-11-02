@@ -40,7 +40,7 @@ def get_database_connection():
     
     cursor.execute("SHOW DATABASES")
     databases = cursor.fetchall() ## it returns a list of all databases present
-    print(databases)
+    #print(databases)
 
     return cursor, db
 
@@ -48,7 +48,7 @@ cursor, db = get_database_connection()
 
 cursor.execute("SHOW DATABASES")
 databases = cursor.fetchall() ## it returns a list of all databases present
-st.write(databases)
+#st.write(databases)
 
 
 
