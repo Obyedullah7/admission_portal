@@ -141,12 +141,12 @@ def main():
     selected=st.sidebar.selectbox('',
                         ('Select',
                         'Admin Panel',
-                        'Registration',
+                        'Student Registration',
                         'Status Check'
                         ))
     if selected=='Admin Panel':
         admin()
-    elif selected=='Registration':
+    elif selected=='Student Registration':
         registration()
     elif selected=='Status Check':
         status()
