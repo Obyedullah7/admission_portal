@@ -118,7 +118,7 @@ def registration():
         
 
 def status():
-    id=st.text_input('Your Id')
+    id=st.text_input('Your Registration Id')
     submit=st.button('Search',key='sub')
     if submit:
         cursor.execute(f"Select status from information where id='{id}'")
